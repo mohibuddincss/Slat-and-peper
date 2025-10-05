@@ -1,0 +1,46 @@
+:root{
+ --black: #000000;
+ --white: #ffffff;
+ --dgrey:#0f0f0f;
+ --grey:#0d0d0d;
+ --green:#28a745;
+ --red: #e61b21;
+}
+@font-face{
+ font-family:inter;
+ src:url(./assits/font/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+body{
+ font-family: inter;
+}
+/* navbar start */
+.main-logo{
+width: 165px;
+}
+.nav-items{
+ font-size: 1.1rem;
+ text-decoration: none;
+}
+.french-btn{
+ padding: 15px 20px;
+background-color: transparent;
+border: 1px solid #ffffff;
+border-radius: 25px;
+color: var(--white);
+}
+.ord-btn{
+padding: 18px 20px;
+background-color: var(--red);
+border: 1px solid var(--red);
+border-radius: 30px ;
+font-size: 15px;
+}
+.circule{
+
+ border-radius: 200px;
+ background-color: #ffffff;
+ color: #e61b21;
+ padding: 5px;
+ font-size: 15px;
+}
+/* navbar end */
