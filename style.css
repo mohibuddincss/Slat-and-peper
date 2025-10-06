@@ -2,13 +2,25 @@
  --black: #000000;
  --white: #ffffff;
  --dgrey:#0f0f0f;
- --grey:#0d0d0d;
+ --grey:#a8b7b2;
  --green:#28a745;
  --red: #e61b21;
 }
-@font-face{
+@font-face {
  font-family:inter;
  src:url(./assits/font/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: aperchu;
+    src: url(./assits/./font/Inter/Apercu_Font_Family/Apercu\ Pro\ Regular.otf);
+}
+@font-face {
+    font-family: futurak;
+    src: url(./assits/font/Inter/futurak/futurak.ttf);
+}
+@font-face {
+    font-family: Butler ;
+    src: url(./assits/font/Inter/Butler/Butler/Butler_Regular.otf);
 }
 body{
  font-family: inter;
@@ -36,7 +48,6 @@ border-radius: 30px ;
 font-size: 15px;
 }
 .circule{
-
  border-radius: 200px;
  background-color: #ffffff;
  color: #e61b21;
@@ -44,3 +55,111 @@ font-size: 15px;
  font-size: 15px;
 }
 /* navbar end */
+
+/* corusol start */
+.corusol{
+    width: 100%;
+}
+/* corusol end */
+.font-2{
+    font-family: aperchu;   
+}
+.text-2{
+    margin: 50px 0px 0px 0px;
+    font-size: 40px !important;
+    font-weight: 400px !important;
+}
+.font-3{
+font-family: futurak;
+}
+.text-3{
+    font-size: 1.2em;
+}
+.text-p{
+    margin: 16px;
+    font-family: aperchu;
+    color: #808080;
+    padding: 0;
+}
+/* Order Start */
+.container{
+    /* border:2px solid white; */
+    width: 100%;
+    padding:25px 0px 140px ;
+}
+.img-bg-w{
+    width: 250px;
+    height: 140px;
+    background: var(--white);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.btn-resturant{
+ padding: 15px 45px ;
+background-color: transparent;
+border: 1px solid #ffffff;
+border-radius: 35px;
+color: var(--white);
+} 
+/* Orders end */
+/* Frenchise Start */
+.font-4{
+    font-family: Butler;
+}
+.french-text{
+    padding: 80px 0px 40px;
+    font-size: 1.5rem;
+}
+.text-p2{
+    font-size: 1rem;
+    color: var(--grey);
+}
+ /* Saltnpeper Islamabad Start */
+.thin-t{
+    font-weight: lighter;
+    color: var(--grey);
+}
+.text-add{
+    color: var(--grey);
+}
+.direction-btn{
+     padding: 15px 20px;
+background-color: transparent;
+border: 1px solid #ffffff;
+border-radius: 25px;
+color: var(--white);
+}
+.section-add{
+    padding: 80px;
+}
+.islamabad-sec{
+    border: 2px solid white;
+}
+.islamabad-text{
+    border: 2px solid white;
+margin:0px 50px 0px 0px ;
+padding: 0px 100px 0px 0px; 
+}
+.islamabad-img{
+    border: 2px solid white;
+    margin-left:170px;
+    padding: 0px 0px 0px 80px ;
+}
+
+.faislabad-sec{
+    border: 2px solid white;
+}
+.faislabad-img{
+    border: 2px solid white;
+    margin-left:40px 50px 100px 0px;
+    
+    padding: 0px 50px 0px 0px  ;
+}
+.faislabad-text{
+    border: 2px solid white;
+margin: ;
+/* padding: 20px 50px 20px 0px;  */
+}
+  /* Saltnpeper Islamabad  End  */
+/* Frenchise End */
