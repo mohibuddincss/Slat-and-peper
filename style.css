@@ -22,6 +22,14 @@
     font-family: Butler ;
     src: url(./assits/font/Inter/Butler/Butler/Butler_Regular.otf);
 }
+@font-face {
+    font-family: aperchu-light;
+    src: url(./assits/font/Inter/Apercu_Font_Family/Apercu\ Light.otf);
+}
+@font-face {
+    font-family: 'futrablack';
+    src: url(./assits/font/Inter/FuturaBlack/FuturaBlackbtRegular/FuturaBlack\ BT\ Regular.ttf);
+}
 body{
  font-family: inter;
 }
@@ -62,7 +70,7 @@ font-size: 15px;
 }
 /* corusol end */
 .font-2{
-    font-family: aperchu;   
+    font-family: 'aperchu';   
 }
 .text-2{
     margin: 50px 0px 0px 0px;
@@ -70,14 +78,15 @@ font-size: 15px;
     font-weight: 400px !important;
 }
 .font-3{
-font-family: futurak;
+font-family: 'futurak';
 }
+
 .text-3{
     font-size: 1.2em;
 }
 .text-p{
     margin: 16px;
-    font-family: aperchu;
+    font-family: 'aperchu';
     color: #808080;
     padding: 0;
 }
@@ -105,11 +114,12 @@ color: var(--white);
 /* Orders end */
 /* Frenchise Start */
 .font-4{
-    font-family: Butler;
+    font-family: 'Butler';
 }
 .french-text{
-    padding: 80px 0px 40px;
+    padding: 10px 10px 10px;
     font-size: 1.5rem;
+    margin: 0px 0px 30px;
 }
 .text-p2{
     font-size: 1rem;
@@ -117,11 +127,23 @@ color: var(--white);
 }
  /* Saltnpeper Islamabad Start */
 .thin-t{
-    font-weight: lighter;
-    color: var(--grey);
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+.font-5{
+    font-family: aperchu-light;
 }
 .text-add{
     color: var(--grey);
+    margin: 0px 0px 12px ;
 }
 .direction-btn{
      padding: 15px 20px;
@@ -129,37 +151,289 @@ background-color: transparent;
 border: 1px solid #ffffff;
 border-radius: 25px;
 color: var(--white);
+margin: 20px 0px 0px ;
 }
 .section-add{
     padding: 80px;
 }
 .islamabad-sec{
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 20px 10px 20px;
 }
 .islamabad-text{
-    border: 2px solid white;
-margin:0px 50px 0px 0px ;
-padding: 0px 100px 0px 0px; 
+    /* border: 2px solid white; */ 
 }
 .islamabad-img{
-    border: 2px solid white;
-    margin-left:170px;
-    padding: 0px 0px 0px 80px ;
+    /* border: 2px solid white; */
+    width: 100%;
 }
 
 .faislabad-sec{
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+    justify-content: flex-start;
+    padding: 20px 10px 20px;
 }
 .faislabad-img{
-    border: 2px solid white;
-    margin-left:40px 50px 100px 0px;
-    
-    padding: 0px 50px 0px 0px  ;
+    /* border: 2px solid white; */
 }
 .faislabad-text{
-    border: 2px solid white;
-margin: ;
-/* padding: 20px 50px 20px 0px;  */
+    /* border: 2px solid white; */
+    margin-left: 40px ;
 }
-  /* Saltnpeper Islamabad  End  */
 /* Frenchise End */
+
+/* Express Start */
+.small{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.58em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* padding: 10px; */
+    margin: 24px 0px 8px;
+    display: block;
+   /* text-align: center; */
+}
+.head-spe{
+    /* padding: 0px 0px 18px; */
+    font-size: 1.5em;
+ 
+}
+.loc-spe{
+    margin: 0px 0px 12px ;
+}
+.ph-spe{
+    margin: 0px 0px 12px;
+}
+.dir-spe{
+    margin: 20px 0px 0px ;
+}
+.flex-direction{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.div-size{
+    /* border: 2px solid white; */
+    width: 380px;
+    height: 540px;
+    padding:0px 12px;
+    /* margin: 0px 0px 32px; */
+    text-align: center;
+}
+.container{
+    justify-content: space-evenly;
+    padding: 0px 50px 38px;
+}
+/* Express End */
+.gujrawalan-text-vel{
+    /* border: 2px solid white; */
+    justify-content: space-between;
+    justify-content: flex-start;
+    padding: 12px 15px ;
+    margin: 50px 0px ;
+}
+.direction-btn-2{
+     padding: 15px 20px;
+background-color: var(--green);
+border: 1px solid var(--green);
+border-radius: 25px;
+color: var(--green);
+margin: 20px 0px 0px ;
+}
+.circule-2{
+ border-radius: 200px;
+ background-color: #ffffff;
+ color: var(--green);
+ padding: 5px;
+ font-size: 15px;
+ 
+}
+/* .btn-red:hover{
+   color: white;
+    background-color: var(--white);
+} */
+.opening-soon-logo{
+
+ }
+ .opening-soon-img{
+    width: 100%;
+
+ }
+ .small{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.58em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* padding: 10px; */
+    margin: 20px 0px 8px;
+    display: block;
+   /* text-align: center; */
+}
+/* opening soon cards start */
+.opening-cards{
+    border: 2px solid white;
+    background-color: white;
+    width: 350px;
+    height: 240px;
+    padding:25px 24px;
+    margin: 0px 0px 32px;
+    text-align: center;
+}
+/* for all saltnpeper heading */
+.text-size-heading{
+    font-size: 2.3em;
+    /* margin: 0px 0px 16px ; */
+}
+.small-head{
+    font-size: 0.5em;
+}
+.font-6{
+    color: #000000;
+font-family: 'futrablack';
+font-size: 21px;
+text-spacing-trim: none;
+}
+/* Opening soon cards end */
+/* footer-1 */
+.footer-dad{
+  dispaly:flex;
+    justify-content: space-evenly;
+}
+.div-size-footer-1{
+    /* border: 2px solid white; */
+    width: 360px;
+    height: 425px;
+    padding:0px 12px;
+    /* margin: 0px 0px 32px; */
+    text-decoration: none;
+
+}
+.footer-p{
+color: var(--grey);
+padding: 24px 0px 24px ;
+}
+.footer-p-link{
+    text-decoration: none;
+    color: var(--grey);
+    padding: 0px 0px 16px;
+    display: block;
+}
+/* footer-2 */
+.div-size-footer-2{
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 425px;
+    padding:0px 12px;
+    /* margin: 0px 0px 32px; */
+    /* text-decoration: none; */
+
+}
+
+/* footer-3 */
+.div-size-footer-3{
+    /* border: 2px solid white; */
+    width: 250px;
+    height: 425px;
+    padding:0px 12px;
+    /* margin: 0px 0px 32px; */
+    text-decoration: none;
+}
+.footer-para-3{
+    font-size: 16px;
+}
+.footer-p3{
+color: var(--grey);
+padding: 0px 0px 16px;
+font-size: 15px;
+}
+/* footer-4 */
+.div-size-footer-4{
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 425px;
+    padding:0px 12px;
+    /* margin: 0px 0px 32px; */
+    text-decoration: none;
+}
+.div-mini-logo{
+    /* padding: 10px 0px 0px 18px ; */
+    margin: 0px 8px 24px ;
+}
+.mini-logo-footer{
+    
+    border-radius: 14px ;
+  color: red;
+  font-size: 25px;
+  background-color: black;
+}
+                            /* Introduction About Us */
+.intro-container{
+   padding: 42px 50px 20px ;
+}
+.div-itro{
+    width: 100%;
+    /* border: 2px solid white; */
+    text-align: center;
+    height: 200px;
+}
+h1{
+    text-align: center;
+    font-family: 'butler';
+    font-size: 40px;
+    margin: 0px 0px 40px ;
+}
+.p-intro{
+   text-align: center;
+    /* text-align: center; */
+    font-family: 'apercu';
+    color: var(--grey);
+    font-size: 16px;
+    margin: 0px 0px 15px;
+} 
+h2{
+    font-size: 32px;
+    margin: 0px 0px 10px ;
+    /* padding: 0px 10px 0px ; */
+    font-family: 'butler';
+    text-align: center;
+}
+.restaurant-text-1{
+    width: 570px;
+    height: 417px;
+    padding: 0px 20px 0px;
+
+}
+.restaurant-text-2{
+    width: 570px;
+    height: 417px;
+    padding: 0px 25px 0px;
+}
+.restaurant-text-3{
+    width: 570px;
+    height: 322px;
+    padding: 0px 25px 0px;
+}
+.salt-express-head{
+    height: 240px;
+    width: 100%;
+}
+.salt-express-text{
+    font-size: 16px;
+    color: var(--grey);
+    margin: 0px 12px px ;
+    width: 570px;
+    height: 330px;
+}
